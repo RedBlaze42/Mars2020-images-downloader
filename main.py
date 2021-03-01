@@ -2,7 +2,7 @@ import nasa_photo
 import os
 import mass_download
 
-photos=nasa_photo.get_photos(rover="mars2020")
+photos=nasa_photo.get_photos(rover="mars2020",cache=False)
 
 def update_photos():
     dirs={photo.camera for photo in photos}
