@@ -1,3 +1,4 @@
 tqdm
 python-dateutil
 glob2
+requests
